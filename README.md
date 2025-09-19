@@ -28,33 +28,26 @@ This is a MERN stack fullstack web application (MongoDB, Express, React, Node. j
 
 ### Frontend
 
--React: A JavaScript library for creating user interfaces.
+-**React**: A JavaScript library for creating user interfaces.
 
--Vite: An alternative to Webpack for modern build setups.
+-**Vite**: An alternative to Webpack for modern build setups.
 
--React Router: Used for client-side routing and navigation.
+-**React Router**: Used for client-side routing and navigation.
 
--Axios: A promise-based HTTP client to make API calls.
-
----
+-**Axios**: A promise-based HTTP client to make API calls.
 
 ### Backend
-
--Node. js & Express: Fast, unopinionated, minimalist web framework for node.
-
--MongoDB & Mongoose: MongoDB serves as the NoSQL database, while Mongoose is the ODM library in a more schema world.
-
--JSON Web Tokens (JWT): used for stateless, secure authentication.
-
--Bcrypt. js and hashing/salting passwords.
-
--CORS: Middleware for allowing cross-origin request.
+-**Node. js & Express**: Fast, unopinionated, minimalist web framework for node.
+-**MongoDB & Mongoose**: MongoDB serves as the NoSQL database, while Mongoose is the ODM library in a more schema world.
+-**JSON Web Tokens (JWT)**: used for stateless, secure authentication.
+-**Bcrypt. js**:for hashing/salting passwords.
+-**CORS**: Middleware for allowing cross-origin request.
 
 ---
 
 ## 💻 Setup and Installation
 
--To set it up and run locally, follow this steps.
+To set it up and run locally, follow this steps.
 
 ### Prerequisites
 
@@ -65,11 +58,11 @@ This is a MERN stack fullstack web application (MongoDB, Express, React, Node. j
 ---
 
 ### Step 1: Clone the Repository
-
 ```bash
 git clone https://github.com/your-username/notes-manager-app.git
-
 cd notes-manager-app
+```
+---
 
 ### Step 2: Backend Setup
 
@@ -77,26 +70,22 @@ Go to the backend directory and install dependencies by running: # Front-end Pro
 
 ```bash
 cd backend
-
 npm install
+```
 
----
+Create a. env file from **backend** folder and paste your enviroment vars :
 
-Create a. env file from backend folder and paste your enviroment vars :
-
-```ini
+```env
 MONGO_URI=your_mongodb_connection_string
-
 JWT_SECRET=your_jwt_secret_key
-
 PORT=5000
-
+```
 ---
 
 ### Run the backend server:
-
 ```bash
 npm run dev
+```
 
 ---
 
@@ -105,17 +94,15 @@ npm run dev
 Open up another terminal Go to the frontend directory, install a packages and start the dev server.
 
 ```bash
-
 cd../frontend
-
 npm install
+```
 
----
-
-###Start the frontend server:
+### Start the frontend server:
 
 ```bash
 npm run dev
+```
 
 ---
 
