@@ -1,10 +1,10 @@
-#📚 Notes Manager App
+# 📚 Notes Manager App
 
 This is a MERN stack fullstack web application (MongoDB, Express, React, Node. js) for users to add, view, edit and delete their notes. The app features JWT (Json Web Tokens) authentication to safeguard user data.
 
 ---
 
-##✨ Features
+## ✨ Features
 
 -User Auth: Safe user sign up and login with email and password.
 
@@ -16,7 +16,7 @@ This is a MERN stack fullstack web application (MongoDB, Express, React, Node. j
 
 ---
 
-##🚀 Live Demo
+## 🚀 Live Demo
 
 -Frontend (Vercel): https://notes-manager-app-gamma.vercel.app
 
@@ -24,9 +24,9 @@ This is a MERN stack fullstack web application (MongoDB, Express, React, Node. j
 
 ---
 
-##⚙️ Technology Stack
+## ⚙️ Technology Stack
 
-###Frontend
+### Frontend
 
 -React: A JavaScript library for creating user interfaces.
 
@@ -38,7 +38,7 @@ This is a MERN stack fullstack web application (MongoDB, Express, React, Node. j
 
 ---
 
-###Backend
+### Backend
 
 -Node. js & Express: Fast, unopinionated, minimalist web framework for node.
 
@@ -52,13 +52,11 @@ This is a MERN stack fullstack web application (MongoDB, Express, React, Node. j
 
 ---
 
-##💻 Setup and Installation
+## 💻 Setup and Installation
 
 -To set it up and run locally, follow this steps.
 
----
-
-###Prerequisites
+### Prerequisites
 
 - **Node.js** (v14 or higher)
 
@@ -66,16 +64,14 @@ This is a MERN stack fullstack web application (MongoDB, Express, React, Node. j
 
 ---
 
-###Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/notes-manager-app.git
 
 cd notes-manager-app
 
-###Step 2: Backend Setup
-
----
+### Step 2: Backend Setup
 
 Go to the backend directory and install dependencies by running: # Front-end Project $ cd backend & npm install & touch. env file.
 
@@ -95,14 +91,16 @@ JWT_SECRET=your_jwt_secret_key
 
 PORT=5000
 
-###Run the backend server:
+---
+
+### Run the backend server:
 
 ```bash
 npm run dev
 
 ---
 
-###Step 3: Frontend Setup
+### Step 3: Frontend Setup
 
 Open up another terminal Go to the frontend directory, install a packages and start the dev server.
 
