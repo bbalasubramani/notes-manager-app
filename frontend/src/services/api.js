@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://notes-manager-api.onrender.com/',
+  baseURL: 'https://notes-manager-api.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
