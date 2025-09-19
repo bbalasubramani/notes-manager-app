@@ -1,0 +1,168 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f0f2f5; 
+  margin: 0;
+  padding: 0;
+  color: #1a202c;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  background: #2d3748;
+  color: #e2e8f0;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px 12px 0 0;
+}
+
+.header .logo a {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav a, .header nav button {
+  color: #e2e8f0;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.header nav button:hover {
+  color: #a0aec0;
+}
+
+.auth-form, .notes-dashboard {
+  padding: 3rem;
+  text-align: center;
+}
+
+.auth-form h2, .notes-dashboard h2 {
+  margin-bottom: 2rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.auth-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.auth-form input {
+  padding: 14px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.auth-form input:focus {
+  outline: none;
+  border-color: #4299e1;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+
+.auth-form button, .note-form button, .note-item button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #4299e1;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.auth-form button:hover, .note-form button:hover, .note-item button:hover {
+  background: #2c5282;
+}
+
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.note-form input, .note-form textarea {
+  padding: 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+.note-item {
+  background: #f7fafc;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: box-shadow 0.2s;
+}
+
+.note-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.note-item h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.note-item p {
+  color: #4a5568;
+}
+
+.note-item .actions button {
+  margin-right: 10px;
+  background-color: #e2e8f0;
+  color: #2d3748;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.note-item .actions button:hover {
+  background-color: #cbd5e0;
+}
